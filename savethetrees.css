@@ -40,4 +40,5 @@
     text-decoration: none;
 }
 .form-font {font-family: Helvetica, sans-serif;}
-.textarea {height: 500px; width: 80%;}
+
+.label-attrs {color:red;}
