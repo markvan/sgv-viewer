@@ -3,14 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Save the Doughty trees</title>
+    <link rel="stylesheet" href="./savethetrees.css">
 </head>
 <body>
-    <video controls width="100%">
 
-        <source src="/doughty_trees.mp4"
-            type="video/mp4">
 
-    Sorry, your browser doesn't support embedded videos.
-    </video>
+    <div class="container">
+        <video controls width="100%" autoplay muted>
+
+            <source src="/doughty_trees.mp4"
+                    type="video/mp4">
+
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        <div class="overlay">
+            <div class="centre-heading">
+                Save these trees please
+            </div>
+            <form>
+                <p>Content Below Your Video</p>
+                <label for="input">Form Input Label</label>
+                <input id="input" name="input" value="" />
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
