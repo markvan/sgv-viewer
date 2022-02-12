@@ -1,0 +1,41 @@
+.centre-heading {
+    width: 100%;
+    text-align: center;
+    font-size: 5em;
+    color: crimson;
+    font-family: Helvetica;
+    font-weight: bold;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.container { position:relative; }
+.container video {
+    position:relative;
+    z-index:0;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index:1;
+}
+
+html,
+body { height: 100%;
+}
+.parent {
+    height: 200px;
+    background: #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child {
+    background-color: #FFFF00;
+    width: 100px;
+    height: 100px;
+}
