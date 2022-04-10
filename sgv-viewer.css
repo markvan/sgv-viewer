@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.carousel-item {
+    transition-duration: 1ms;
+  } 
+
+img { 
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 1px solid red ; 
+}
+
+p {
+    margin-left: 100px;
+}
+
+.svg-box {
+    max-width: 808px;
+    width: 100%;
+}
+
+.top-spaced {
+    padding-top: 10px;
+    width: 600px;
+}
+
+.svg-full {
+    width: 808px;
+}
+.svg-medium {
+    width: 600px;
+}
+
+.svg-narrow {
+    width: 375px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(45, 45, 45);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    font-size: 2rem ;
+    font-weight: 200;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    font-size: 1rem ;
+    font-weight: 200;
+}
